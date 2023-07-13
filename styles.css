@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    background-color: gainsboro;
+    justify-content: center;
+}
+.wrapper {
+    margin: 5px;
+    background-color: white;
+}
+.head {
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 20px;
+    width: 460px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+.picTitle {
+    padding: 5px;
+    width: 70%;
+    height: 40px;
+    text-align: justify;
+}
+.picDate {
+    padding: 5px;
+    width: 10%;
+    height: 40px;
+    text-align: right;
+    color: grey;
+}
